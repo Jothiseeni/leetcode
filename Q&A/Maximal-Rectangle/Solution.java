@@ -1,4 +1,4 @@
-public class Solution3 {
+public class Solution {
 
     public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
@@ -9,7 +9,6 @@ public class Solution3 {
 
         int[][] mat = new int[M][N];
 
-        // convert char to int
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < N; j++) {
                 mat[i][j] = matrix[i][j] - '0';
