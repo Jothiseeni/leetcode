@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class Solution1 {
 
     int[][] dp;
 
@@ -49,7 +49,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution1 sol = new Solution1();
 
         String s1 = "sea";
         String s2 = "eat";
